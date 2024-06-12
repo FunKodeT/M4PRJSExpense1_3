@@ -396,4 +396,45 @@
 
 ---
 
+<h4 align="center">VERSION 1.0.2</h4>
+
+---
+
+-   Started TESD1400>M4>Expense_Tracker_Part_1>Part_5_Prisma_Setup @ 20240612 16:35;
+-   Commited TTech EOD Part_5_Prisma_Setup @ 20240612 16:40; (MC: Encountered error launching pgadmin4. No time left to troubleshoot and work on coursework)
+-   Pushed FIRST to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0.1|=>|1.0.2|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1.0.1|=>|1.0.2|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 1 || FIRST)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|1.0.1|=>|1.0.2|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
 ---
