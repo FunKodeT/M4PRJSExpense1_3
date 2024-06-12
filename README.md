@@ -333,4 +333,67 @@
 
 ---
 
+<h4 align="center">VERSION 1.0.1</h4>
+
+-   Started TESD1400>M4>Expense_Tracker_Part_1>Part_4_Routing_Files @ 20240612 15:59;
+-   Completed Part_4_Routing_Files @ 20240612 16:32;
+-   Pushed FIRST to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>authRoutes.js</td>
+        <td>|0|=>|1.0.1|</td>
+        <td>=[expense-app\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>categoriesRoutes.js</td>
+        <td>|0|=>|1.0.1|</td>
+        <td>=[express-app\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>transactionRoutes.js</td>
+        <td>|0|=>|1.0.1|</td>
+        <td>=[express-app\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>userController.js</td>
+        <td>|0|=>|1.0.1|</td>
+        <td>=[express-app\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0|=>|1.0.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1.0|=>|1.0.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 1 || FIRST)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|1.0|=>|1.0.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
 ---

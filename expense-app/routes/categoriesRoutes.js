@@ -1,0 +1,16 @@
+import express from 'express';
+import * as categoriesController from '../controllers/categoriesController';
+import requireAuth from '../middlewares/requireAuth';
+
+const router = express.Router();
+
+router.use(requireAuth);
+router.post('/category', categoriesController.categories_post);
+router.get('/categories', categoriesController.categories_get);
+router.get('/categories/sum', categoriesController.categories_transaction_sum);
+router.delete(
+	'/categories/delete/:categoryId',
+	categoriesController.categories_delete
+);
+
+export default router;
