@@ -656,8 +656,8 @@
 <h4 align="center">VERSION 2.0</h4>
 
 -   Initalized branch (2) (REF: 2 || SECOND)
--   Started TESD1400>M4>Expense_Tracker_Part_2>Part_1_Frontend_Setup @ 14:39;
--   Completed Part_1_Frontend_Setup @ 15:09;
+-   Started TESD1400>M4>Expense_Tracker_Part_2>Part_1_Frontend_Setup @ 20240613 14:39;
+-   Completed Part_1_Frontend_Setup @ 20240613 15:09;
 -   Pushed SECOND to ORIGIN
 
 ---
@@ -730,12 +730,12 @@
 
 ---
 
-<h4 align="center">VERSION 2.0.1</h4>
+<h4 align="center">VERSION 2.1</h4>
 
 ---
 
--   Started TESD1400>M4>Expense_Tracker_Part_2>Part_2_Folder_Setup @ 15:11;
--   Completed Part_2_Folder_Setup @ 15:50;
+-   Started TESD1400>M4>Expense_Tracker_Part_2>Part_2_Folder_Setup @ 20240613 15:11;
+-   Completed Part_2_Folder_Setup @ 20240613 15:50;
 -   Pushed SECOND to ORIGIN
 
 ---
@@ -854,19 +854,19 @@
     </tr>
     <tr>
         <td>README.md</td>
-        <td>|2.0|=>|2.0.1|</td>
+        <td>|2.0|=>|2.1|</td>
         <td>=[MAINDIR\]</td>
         <td></td>
     </tr>
     <tr>
         <td>2</td>
-        <td>|2.0|=>|2.0.1|</td>
+        <td>|2.0|=>|2.1|</td>
         <td>=[N/A]</td>
         <td>- MC: (REF: 2 || SECOND)</td>
     </tr>
     <tr>
         <td>REMOTE</td>
-        <td>|2.0|=>|2.0.1|</td>
+        <td>|2.0|=>|2.1|</td>
         <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
@@ -889,6 +889,63 @@
         <td>=[client\src\]</td>
         <td>- MC: No longer necessary</td>
     </tr>
+</table>
+
+---
+
+<h3 align="center">BRANCH 3</h3>
+
+<h4 align="center">VERSION 3.0</h4>
+
+-   Initalized branch (3) (REF: 3 || THIRD)
+-   MC: Changed my mind, created new branch for Part 3. Version 2.0.1 converted to Version 2.1;
+-   MC: All files that were labelled as '2.0.1' have now been adjusted to reflect 2.0.1+=2.1 changes;
+-   Started TESD1400>M4>Expense_Tracker_Part_2>Part_3_File_Setup @ 20240613 15:57;
+-   Commited project changes 20240613 @ 15:58;
+-   Pushed THIRD to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.1|=>|3.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 2 || SECOND)</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>|3|=>|3.0|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 3 || THIRD)</td>
+    </tr>
+        <tr>
+        <td>REMOTE</td>
+        <td>|2.0.1|=>|2.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|N/A|=>|3.0|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
 </table>
 
 ---
