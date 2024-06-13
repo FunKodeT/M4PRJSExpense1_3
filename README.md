@@ -932,6 +932,86 @@
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
 </table>
+
+---
+
+---
+
+<h3 align="center">BRANCH 3</h3>
+
+<h4 align="center">VERSION 3.0</h4>
+
+---
+
+-   Initalized branch (3) (REF: 3 || THIRD)
+-   Continued TESD1400>M4>Expense_Tracker_Part_2>Part_3_File_Setup @ 20240613 16:23;
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>|3|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 3 || THIRD)</td>
+    </tr>
+</table>
+
+--
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>transaction.js</td>
+        <td>|2|=>|3.0|</td>
+        <td>=[src\queries\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>user.js</td>
+        <td>|2|=>|3.0|</td>
+        <td>=[src\queries\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Axios.js</td>
+        <td>|2|=>|3.0|</td>
+        <td>=[src\utils\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.1|=>|3.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>|3|=>|3.0|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 3 || THIRD)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|N/A|=>|3.0|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
 </table>
 
 ---
