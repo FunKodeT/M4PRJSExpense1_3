@@ -1,4 +1,4 @@
-import prisma from '../constats/config';
+import prisma from '../constats/config.js';
 import {DateTime} from 'luxon';
 import {z} from 'zod';
 
@@ -20,7 +20,7 @@ const transaction_post = async (req, res) => {
 			.min(1, 'Transactions Category ID must be provided'),
 	});
 
-	const isValid = shema.safeParse(req.body);
+	const isValid = schema.safeParse(req.body);
 	if (isValid.error) {
 		res.status(400).json({
 			errors: isValid?.error?.errors,

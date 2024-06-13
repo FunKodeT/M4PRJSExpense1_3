@@ -1,6 +1,6 @@
 import express from 'express';
-import * as categoriesController from '../controllers/categoriesController';
-import requireAuth from '../middlewares/requireAuth';
+import * as categoriesController from '../controllers/categoriesController.js';
+import requireAuth from '../middlewares/requireAuth.js';
 
 const router = express.Router();
 

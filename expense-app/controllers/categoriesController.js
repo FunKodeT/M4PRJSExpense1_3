@@ -1,14 +1,18 @@
-import prisma from '../constats/config';
+import prisma from '../constats/config.js';
 import {DateTime} from 'luxon';
 
 // CATEGORIES: RETRIEVE ALL CATEGORIES
 const categories_get = async (req, res) => {
+	console.log('getCategories started');
 	let ctgs;
+	console.log(ctgs);
 	try {
+		console.log('findCategories started');
 		ctgs = await prisma.transactionCategory.findMany();
-
+		console.log(ctgs, 'findCategories success');
 		if (ctgs) {
 			res.status(200).json({cfgs});
+			console.log('getCategories success');
 		}
 		// if (ctgs) res.status(200).json({ cfgs })
 	} catch {

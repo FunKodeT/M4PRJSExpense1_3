@@ -509,4 +509,108 @@
 
 ---
 
+<h4 align="center">VERSION 1.1</h4>
+
+-   Continued TESD1400>M4>Expense_Tracker_Part_1>Part_5_Prisma_Setup @ 20240613 12:20;
+-   Completed Part_5_Prisma_Setup @ 20240613 13:40;
+-   Prepped FIRST for merge into OPERATIONS
+-   Pushed FIRST to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>authController.js</td>
+        <td>|1.0|=>|1.1|</td>
+        <td>=[express-app\controllers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>categoriesController.js</td>
+        <td>|1.0|=>|1.1|</td>
+        <td>=[express-app\controllers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>transactionController.js</td>
+        <td>|1.0|=>|1.1|</td>
+        <td>=[express-app\controllers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>userController.js</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[express-app\controllers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>schema.prisma</td>
+        <td>|1.0.3|=>|1.1|</td>
+        <td>=[expense-app\prisma\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>authRoutes.js</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[expense-app\routes\]</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>categoriesRoutes.js</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[expense-app\routes\]</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>transactionRoutes.js</td>
+        <td>|1.0.1|=>|1.1|</td>
+        <td>=[expense-app\routes\]</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>userRoutes.js</td>
+        <td>|0|=>|1.1|</td>
+        <td>=[expense-app\routes\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>server.js</td>
+        <td>|1.0|=>|1.1|</td>
+        <td>=[MAINDIR\expense-app\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|1.0.3|=>|1.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>|1.0.3|=>|1.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 1 || FIRST)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|1.0.3|=>|1.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+---
+
+---
+
 ---

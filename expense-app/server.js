@@ -7,13 +7,13 @@ import path from 'path';
 import {fileURLToPath} from 'url';
 
 // BACKEND: REQUIRED ROUTE DATA
-import authRoutes from './routes/authRoutes';
-import userRoutes from './routes/userRoutes';
-import transactionRoutes from './routes/transactionRoutes';
-import categoriesRoutes from './routes/categoriesRoutes';
+import authRoutes from './routes/authRoutes.js';
+import userRoutes from './routes/userRoutes.js';
+import transactionRoutes from './routes/transactionRoutes.js';
+import categoriesRoutes from './routes/categoriesRoutes.js';
 
 // BACKEND: PRISMA CLIENT
-import prisma from './constats/config';
+import prisma from './constats/config.js';
 
 const app = express();
 const port = process.env.SERVER_PORT || 5001;

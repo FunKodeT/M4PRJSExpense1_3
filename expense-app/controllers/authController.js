@@ -1,4 +1,4 @@
-import prisma from '../constats/config';
+import prisma from '../constats/config.js';
 import bcrypt from 'bcrypt';
 import {z} from 'zod';
 
@@ -6,7 +6,7 @@ import {z} from 'zod';
 const auth_login = async (req, res) => {
 	let user;
 	const {email, password} = req.body;
-	if ((!email, password)) {
+	if (!email || !password) {
 		res.status(400).json({msg: 'Fields Missing'});
 		return;
 	}
