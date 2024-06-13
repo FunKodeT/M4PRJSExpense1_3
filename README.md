@@ -730,4 +730,167 @@
 
 ---
 
+<h4 align="center">VERSION 2.0.1</h4>
+
+---
+
+-   Started TESD1400>M4>Expense_Tracker_Part_2>Part_2_Folder_Setup @ 15:11;
+-   Completed Part_2_Folder_Setup @ 15:50;
+-   Pushed SECOND to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Resources\</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\Resources\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>expenseTrackerFiles-main.zip</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\Resources\]</td>
+        <td>- MC: Extracted 'styles' from provided .zip file</td>
+    </tr>
+    <tr>
+        <td>styles\+</td>
+        <td>|N/A|</td>
+        <td>=[src\styles\+]</td>
+        <td>- MC: Extracted from expenseTrackerFiles-main.zip</td>
+    </tr>
+    <tr>
+        <td>components\+</td>
+        <td>|N/A|</td>
+        <td>=[src\components\+]</td>
+        <td>- +[Containers\]<br>- +[HomeComponents\]<br>- +[Navbar\]<br>- +[Titles\]<br>- +[TransactionComponents\]</td>
+    </tr>
+    <tr>
+        <td>Navbar\+</td>
+        <td>|N/A|</td>
+        <td>=[components\Navbar\+]</td>
+        <td>- +[ListItemLink.jsx|2|]<br>- +[MobileNavbar.jsx|2|]<br>- +[Navbar.jsx|2|]<br></td>
+    </tr>
+    <tr>
+        <td>Titles.jsx</td>
+        <td>|2|</td>
+        <td>=[components\Titles\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>HomeComponents\+</td>
+        <td>|N/A|</td>
+        <td>=[components\HomeComponents\+]</td>
+        <td>- +[HomeProfile.jsx|2|]<br>- +[Searchbar.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>Containers\+</td>
+        <td>|N/A|</td>
+        <td>=[components\Containers\+]</td>
+        <td>- +[MainContainer.jsx|2|]<br>- +[PageContainer.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>Cards\+</td>
+        <td>|N/A|</td>
+        <td>=[components\Cards\+]</td>
+        <td>- +[CategoryCard.jsx|2|]<br>- +[TransactionCard.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>CategoriesComponents\+</td>
+        <td>|N/A|</td>
+        <td>=[components\CategoriesComponents\+]</td>
+        <td>- +[Categories.jsx|2|]<br>- +[CategoryCreate.jsx|2|]<br>- +[CategoryDelete.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>TransactionComponents\+</td>
+        <td>|N/A|</td>
+        <td>=[components\TransactionComponents\+]</td>
+        <td>- +[TransactionCreate.jsx|2|]<br>- +[TransactionDelete.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>config.jsx</td>
+        <td>|2|</td>
+        <td>=[src\constants\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>queries\+</td>
+        <td>|N/A|</td>
+        <td>=[src\queries\+]</td>
+        <td>- +[category.js|2|]<br>- +[transaction.js|2|]<br>- +[user.js|2|]</td>
+    </tr>
+    <tr>
+        <td>pages\+</td>
+        <td>|N/A|</td>
+        <td>=[src\pages\+]</td>
+        <td>- +[Auth.jsx|2|]<br>- +[CategoriesRoot.jsx|2|]<br>- +[Home.jsx|2|]<br>- +[Profile.jsx|2|]<br>- +[Register.jsx|2|]<br>- +[Settings.jsx|2|]<br>- +[TransactionsRoot.jsx|2|]</td>
+    </tr>
+    <tr>
+        <td>Axios.js</td>
+        <td>|2|</td>
+        <td>=[src\utils\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 2 || SECOND)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|2.0|=>|2.0.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>REMOVED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>App.css</td>
+        <td>|0|</td>
+        <td>=[client\src\]</td>
+        <td>- MC: No longer necessary</td>
+    </tr>
+</table>
+
+---
+
 ---
