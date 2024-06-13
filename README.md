@@ -264,10 +264,6 @@
 
 ---
 
----
-
----
-
 <h3 align="center">BRANCH 1</h3>
 
 <h4 align="center">VERSION 1.0</h4>
@@ -501,7 +497,7 @@
         <th>COMMENT</th>
     </tr>
     <tr>
-        <td>NPM Modules</td>
+        <td>NPM && Modules</td>
         <td>|N/A|</td>
         <td>=[MAINDIR\express-app\]</td>
         <td>- npx[prisma init]<br>- npx[prisma migrate dev]</td>
@@ -646,6 +642,87 @@
     <tr>
         <td>REMOTE</td>
         <td>|1.0.3|=>|1.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+---
+
+<h3 align="center">BRANCH 2</h3>
+
+<h4 align="center">VERSION 2.0</h4>
+
+-   Initalized branch (2) (REF: 2 || SECOND)
+-   Started TESD1400>M4>Expense_Tracker_Part_2>Part_1_Frontend_Setup @ 14:39;
+-   Completed Part_1_Frontend_Setup @ 15:09;
+-   Pushed SECOND to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>ADDED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 2 || SECOND)</td>
+    </tr>
+    <tr>
+        <td>NPM && Modules</td>
+        <td>|N/A|</td>
+        <td>[expense-app\client\]</td>
+        <td>- npx[create-react-app client]<br>- npm[i @hookform/resolvers axios luxon react-router-dom@latest react-icons sass zod]<br>- npm[i react-query -D]</td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>App.js</td>
+        <td>|2|=>|2.0|</td>
+        <td>=[client\src\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>index.js</td>
+        <td>|2|=>|2.0|</td>
+        <td>=[client\src\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.1|=>|2.0|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>|2|=>|2.0|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 2 || SECOND)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|0.1|=>|2.0|</td>
         <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
