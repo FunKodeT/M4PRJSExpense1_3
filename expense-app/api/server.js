@@ -69,6 +69,8 @@ app.use('/api', categoriesRoutes);
 // BACKEND: SEND FRONTEND USER INTERFACE
 app.get('/*', (req, res) => {
 	res.sendFile(path.join(__dirname, 'clientBuild', 'index.html'));
+	// res.sendFile(path.join(__dirname, 'client', 'src', 'index.js'));
+	// res.sendFile(path.join(__dirname, 'client', 'public', 'index.html'));
 });
 
 // BACKEND: SERVER LAUNCH

@@ -945,6 +945,8 @@
 
 -   Initalized branch (3) (REF: 3 || THIRD)
 -   Continued TESD1400>M4>Expense_Tracker_Part_2>Part_3_File_Setup @ 20240613 16:23;
+-   Commited Project Progress TTech EOD: Part_3_File_Setup @ 20240613 16:46;
+-   Pushed THIRD to ORIGIN
 
 ---
 
@@ -1009,6 +1011,119 @@
     <tr>
         <td>REMOTE</td>
         <td>|N/A|=>|3.0|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 3.1</h4>
+
+-   Continued TESD1400>M4>Expense_Tracker_Part_2>Part_3_File_Setup @ 20240618 12:25;
+-   Completed Part_3_File_Setup @ 20240618 15:35;
+-   Prepped THIRD for merge into OPERATIONS
+-   Pushed THIRD to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>MOVED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>api\&+</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\express-app\&+]=>[express-app\api\&+]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>client\&+</td>
+        <td>|N/A|</td>
+        <td>=[MAINDIR\express-app\client\&+]=>[express-app\client\&+]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|3.0|</td>
+        <td>=[MAINDIR\]=>[MAINDIR\expense-app\]</td>
+        <td></td>
+    </tr>
+</table>
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Auth.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CategoriesRoot.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Home.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Profile.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Register.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Settings.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TransactionsRoot.jsx</td>
+        <td>|2|=>|3.1|</td>
+        <td>=[src\pages\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|3.0|=>|3.1|</td>
+        <td>=[MAINDIR\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>|3.0|=>|3.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 3 || THIRD)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|3.0|=>|3.1|</td>
         <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
