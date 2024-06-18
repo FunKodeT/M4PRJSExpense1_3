@@ -1150,7 +1150,7 @@
     <tr>
         <td>README.md</td>
         <td>|3.0|=>|3.1|</td>
-        <td>=[MAINDIR\]</td>
+        <td>=[express-app\]</td>
         <td></td>
     </tr>
     <tr>
@@ -1162,6 +1162,74 @@
     <tr>
         <td>REMOTE</td>
         <td>|3.0|=>|3.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+---
+
+<h3 align="center">BRANCH 4</h3>
+
+<h4 align="center">VERSION 4.0</h4>
+
+-   Initalized branch (4) (REF: 4 || FOURTH);
+-   Started TESD1400>M4>Expense_Tracker_Part_3>Part_1_Final_Pages_in_Components @ 20240618 16:25;
+-   Commited TTech EOD Progress: Part_1_Final_Pages_in_Components @ 20240618 16:48;
+-   Pushed FOURTH to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>Interceptor.jsx</td>
+        <td>|2|=|4.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PageLayout.jsx</td>
+        <td>|2|=|4.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Spinner.jsx</td>
+        <td>|2|=|4.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TabComponent.jsx</td>
+        <td>|2|=|4.0|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|0.2|=>|4.0|</td>
+        <td>=[express-app\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>|4|=>|4.0|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 4 || FOURTH)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|N/A|=>|4.0|</td>
         <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
