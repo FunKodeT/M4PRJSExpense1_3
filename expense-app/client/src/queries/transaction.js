@@ -16,7 +16,7 @@ const postTr = async (params) => {
 
 const useTransactionDelete = () => useMutation('deleteTr', deleteTr);
 
-const useTransactionsget = ({
+const useTransactionGet = ({
 	firstDate,
 	lastDate,
 	category,
@@ -48,4 +48,4 @@ const useTransactionsget = ({
 
 const useTransactionPost = () => useMutation('posttransaction', postTr);
 
-export {useTransactionsget, useTransactionDelete, useTransactionPost};
+export {useTransactionGet, useTransactionDelete, useTransactionPost};

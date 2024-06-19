@@ -1282,4 +1282,133 @@
 
 ---
 
+<h4 align="center">VERSION 4.2</h4>
+
+-   Started TESD1400>M4>Expense_Tracker_Part_3>Part_2_Folders_inside_Components @ 20240619 13:02;
+-   Completed Part_2_Folders_inside_Components @ 20240619 17:41;
+-   Pushed FOURTH to ORIGIN
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>TransactionCard.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Cards\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CategoryCard.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Cards\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Categories.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\CategoriesComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CategoryCreate.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\CategoriesComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CategoryDelete.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\CategoriesComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MainContainer.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Containers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PageContainer.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Containers\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>HomeProfile.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\HomeComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Searchbar.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\HomeComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ListItemLink.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MobileNavbar.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Navbar.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Navbar\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Titles.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\Titles\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TransactionCreate.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\TransactionComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TransactionDelete.jsx</td>
+        <td>|2|=>|4.2|</td>
+        <td>=[components\TransactionComponents\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|4.1|=>|4.2|</td>
+        <td>=[express-app\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>|4.1|=>|4.2|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 4 || FOURTH)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|4.1|=>|4.2|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
 ---
