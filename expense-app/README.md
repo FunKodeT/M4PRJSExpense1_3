@@ -1237,4 +1237,49 @@
 
 ---
 
+<h4 align="center">VERSION 4.1</h4>
+
+-   Continued TESD1400>M4>Expense_Tracker_Part_3>Part_1_Final_Pages_in_Components @ 20240619 12:41;
+-   Completed Part_1_Final_Pages_in_Components @ 20240619 12:50;
+-   Pushed FOURTH to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>AuthGuard.jsx</td>
+        <td>|2|=>|4.1|</td>
+        <td>=[src\components\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|4.0|=>|4.1|</td>
+        <td>=[express-app\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>|4.0|=>|4.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 4 || FOURTH)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|4.0|=>|4.1|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
 ---
