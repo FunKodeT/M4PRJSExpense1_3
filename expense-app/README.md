@@ -278,7 +278,7 @@
         <th>DIR_LOC</th>
         <th>COMMENT</th>
     </tr>
-<tr>
+    <tr>
         <td>README.md</td>
         <td>|3.1|=>|0.2|</td>
         <td>=[MAINDIR\]</td>
@@ -293,6 +293,47 @@
     <tr>
         <td>REMOTE</td>
         <td>|0.1|=>|0.2|</td>
+        <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
+        <td>- MC: (REF: REMOTE || ORIGIN)</td>
+    </tr>
+</table>
+
+---
+
+<h4 align="center">VERSION 0.2.1</h4>
+
+-   Merged FOURTH into OPERATIONS;
+-   Started TESD1400>M4>Expense_Tracker_Part_3>TEST_PHASE @ 20240619 17:45;
+-   Commited TTech EOD progress @ 20240619 17:45;
+-   MC: Everything is done and ready for troubleshooting;
+-   Pushed LOCAL to ORIGIN;
+
+---
+
+<h5 align="center"><strong><em><u>UPDATED</u></em></strong></h5>
+
+<table align="center">
+    <tr>
+        <th>ITEM</th>
+        <th>VERSION</th>
+        <th>DIR_LOC</th>
+        <th>COMMENT</th>
+    </tr>
+    <tr>
+        <td>README.md</td>
+        <td>|4.2|=>|0.2.1|</td>
+        <td>=[MAINDIR\expense-app\]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>|0.2|=>|0.2.1|</td>
+        <td>=[N/A]</td>
+        <td>- MC: (REF: 0 || OPERATIONS)</td>
+    </tr>
+    <tr>
+        <td>REMOTE</td>
+        <td>|0.2|=>|0.2.1|</td>
         <td>=[@https://www.github.com/FunKodeT/M4PRJSExpense1_3.git]</td>
         <td>- MC: (REF: REMOTE || ORIGIN)</td>
     </tr>
@@ -1286,6 +1327,7 @@
 
 -   Started TESD1400>M4>Expense_Tracker_Part_3>Part_2_Folders_inside_Components @ 20240619 13:02;
 -   Completed Part_2_Folders_inside_Components @ 20240619 17:41;
+-   Prepped FOURTH for merge into OPERATIONS
 -   Pushed FOURTH to ORIGIN
 
 ---
