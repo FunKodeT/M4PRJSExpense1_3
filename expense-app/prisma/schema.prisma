@@ -47,7 +47,7 @@ model Transaction {
 }
 
 model TransactionCategory {
-  id           String        @id @default(cuid())
+  id           String        @id @default(cuid()) @unique
   name         String        @unique
   Transactions Transaction[]
   user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)

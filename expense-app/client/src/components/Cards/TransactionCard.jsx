@@ -1,6 +1,6 @@
 // STYLES
-import styles from '../../styles/Cards/Transactioncard.module.scss';
-import {FiBox} from 'react=icons/fi';
+import styles from '../../styles/Cards/TransactionCard.module.scss';
+import {FiBox} from 'react-icons/fi';
 import {IoGameControllerOutline} from 'react-icons/io5';
 import {BsHouseDoor} from 'react-icons/bs';
 import {RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';

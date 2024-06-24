@@ -65,6 +65,10 @@ const transactions_get = async (req, res) => {
 					gte:
 						firstDate != undefined
 							? DateTime.fromISO(firstDate).toISO()
+							: DateTime.now().minus({days: 30}).toISO(),
+					lt:
+						lastDate != undefined
+							? DateTime.fromISO(lastDate).toISO()
 							: DateTime.now().toISO(),
 				},
 				transactionCategoryId: category,
@@ -72,6 +76,10 @@ const transactions_get = async (req, res) => {
 			skip: parseInt(skip),
 			take: parseInt(take) + 1,
 			orderBy: {
+				date: dateSort ?? undefined,
+				money: priceSort ?? undefined,
+			},
+			select: {
 				title: true,
 				money: true,
 				date: true,

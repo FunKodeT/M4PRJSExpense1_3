@@ -7,7 +7,7 @@ const auth_login = async (req, res) => {
 	let user;
 	const {email, password} = req.body;
 	if (!email || !password) {
-		res.status(400).json({msg: 'Fields Missing'});
+		res.status(400).json({message: 'Fields Missing'});
 		return;
 	}
 	try {
@@ -24,16 +24,16 @@ const auth_login = async (req, res) => {
 			req.session.userId = user.id;
 			res.status(200).send('Authorized');
 		} else {
-			res.status(400).json({msg: 'Invalid credentials'});
+			res.status(400).json({message: 'Invalid credentials'});
 		}
 	} catch (e) {
 		if (!user) {
-			res.status(400).json({msg: 'Invalid credentials'});
+			res.status(400).json({message: 'Invalid credentials'});
 		} else {
-			res.status(400).json({msg: 'Something has gone wrong'});
+			res.status(400).json({message: 'Something has gone wrong'});
 		}
-		//     if (!user) res.status(400).json({msg: 'Invalid credentials'})
-		// else res.status(400).json({msg: 'Something has gone wrong'})
+		//     if (!user) res.status(400).json({message: 'Invalid credentials'})
+		// else res.status(400).json({message: 'Something has gone wrong'})
 	}
 };
 
@@ -41,24 +41,22 @@ const auth_login = async (req, res) => {
 const auth_register = async (req, res) => {
 	const {email, password, firstName, lastName} = req.body;
 	const schema = z.object({
-		email: z.string().email({msg: 'Invalid email address'}),
-		password: z
-			.string()
-			.min(3, {msg: 'Password must be atleast 3 characters in length'}),
-		firstName: z.string().min(2, {
-			msg: 'First name must be at least 2 characters in length',
+		email: z.string().email({message: 'Invalid email address'}),
+		password: z.string().min(3, {
+			message: 'Password must be atleast 3 characters in length',
 		}),
-		lastName: z
-			.string()
-			.min(2, {msg: 'Last name must be at least 2 characters in length'}),
+		firstName: z.string().min(2, {
+			message: 'First name must be at least 2 characters in length',
+		}),
+		lastName: z.string().min(2, {
+			message: 'Last name must be at least 2 characters in length',
+		}),
 	});
-
 	const isValid = schema.safeParse(req.body);
 	if (isValid?.error) {
 		res.status(400).json({errors: isValid?.error?.errors});
 		return;
 	}
-
 	let emailCheck;
 	try {
 		emailCheck = await prisma.user.findUnique({
@@ -67,12 +65,12 @@ const auth_register = async (req, res) => {
 			},
 		});
 	} catch {
-		res.status(500).json({msg: 'Something has gone wrong'});
+		res.status(500).json({message: 'Something has gone wrong with email'});
 	}
 	if (emailCheck) {
-		res.status(500).json({msg: 'Email already exists'});
+		res.status(500).json({message: 'Email already exists'});
 	} else {
-		// if(emailCheck) res.status(500).json({msg: 'Email already exists'})
+		// if(emailCheck) res.status(500).json({message: 'Email already exists'})
 		//     else {
 		const saltRounds = 10;
 		let salted_password = await bcrypt.hash(password, saltRounds);
@@ -103,11 +101,12 @@ const auth_register = async (req, res) => {
 					},
 				],
 			});
-
 			res.status(200).json({userId: newUser.id});
 		} catch (e) {
 			console.log(e);
-			res.status(500).json({msg: 'Something has gone wrong'});
+			res.status(500).json({
+				message: 'Something has gone wrong with registration',
+			});
 			return;
 		}
 	}

@@ -19,7 +19,7 @@ import {queryClient} from '../../constants/config';
 
 const DeleteTransactionForm = () => {
 	const [firstDate, setFirstDate] = useState(
-		DateTime.now().minus({day: 1}).toISODate
+		DateTime.now().minus({day: 1}).toISODate()
 	);
 	const [lastDate, setLastDate] = useState(
 		DateTime.now().plus({day: 1}).toISODate()

@@ -3,7 +3,7 @@ import {Title} from '../Titles/Titles';
 import {queryClient} from '../../constants/config';
 import {useState} from 'react';
 import {useCategoriesPost} from '../../queries/category';
-import {Spinner} from '../Spinner';
+import Spinner from '../Spinner';
 
 // UTILS
 const CategoryCreate = () => {

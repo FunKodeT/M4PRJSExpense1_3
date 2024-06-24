@@ -7,7 +7,7 @@ import HomeProfile from '../components/HomeComponents/HomeProfile';
 import Searchbar from '../components/HomeComponents/Searchbar';
 import Spinner from '../components/Spinner';
 import {DateTime} from 'luxon';
-import {useTransactionsGet} from '../queries/transaction';
+import {useTransactionGet} from '../queries/transaction';
 import {useCategoriesSum} from '../queries/category';
 import {useEffect} from 'react';
 
@@ -17,7 +17,7 @@ const Home = () => {
 		data: transactions,
 		refetch: fetchTransactions,
 		isLoading: transactionsLoading,
-	} = useTransactionsGet({
+	} = useTransactionGet({
 		key: 'Trs_Latest',
 		skip: 0,
 		take: 5,

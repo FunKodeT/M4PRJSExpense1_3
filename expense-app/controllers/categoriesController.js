@@ -3,19 +3,21 @@ import {DateTime} from 'luxon';
 
 // CATEGORIES: RETRIEVE ALL CATEGORIES
 const categories_get = async (req, res) => {
-	console.log('getCategories started');
+	// console.log('getCategories started');
 	let ctgs;
 	console.log(ctgs);
 	try {
-		console.log('findCategories started');
+		// console.log('findCategories started');
 		ctgs = await prisma.transactionCategory.findMany();
-		console.log(ctgs, 'findCategories success');
-		if (ctgs) {
-			res.status(200).json({cfgs});
-			console.log('getCategories success');
-		}
-		// if (ctgs) res.status(200).json({ cfgs })
+		// console.log(ctgs, 'findCategories success');
+		// if (ctgs) {
+		// 	console.log('getCategories success', cfgs);
+		// 	res.status(200).json({cfgs});
+		// }
+		if (ctgs) res.status(200).json({ctgs});
+		// console.log('findCategories completed');
 	} catch {
+		console.log('categories_get has failed');
 		res.status(400).json({msg: 'Something has gone wrong'});
 	}
 };

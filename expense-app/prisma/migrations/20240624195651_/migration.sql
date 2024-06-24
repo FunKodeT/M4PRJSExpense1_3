@@ -59,6 +59,9 @@ CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 CREATE UNIQUE INDEX "Wallet_userId_key" ON "Wallet"("userId");
 
 -- CreateIndex
+CREATE UNIQUE INDEX "TransactionCategory_id_key" ON "TransactionCategory"("id");
+
+-- CreateIndex
 CREATE UNIQUE INDEX "TransactionCategory_name_key" ON "TransactionCategory"("name");
 
 -- AddForeignKey

@@ -31,7 +31,10 @@ const TransactionDelete = () => {
 	const schema = z.object({
 		title: z
 			.string()
-			.min(2, {msg: 'Title must be at least 2 characters long'})
+			.min(2, {msg: 'Title must be at least 2 characters long'}),
+		money: z
+			.number()
+			.positive({msg: 'Money must be a positive value'})
 			.or(z.string().regex(/\d+/).transform(Number))
 			.refine((n) => n > 0, {
 				msg: 'Money must be a positive number',

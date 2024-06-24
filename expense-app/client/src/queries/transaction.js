@@ -46,6 +46,6 @@ const useTransactionGet = ({
 		}
 	);
 
-const useTransactionPost = () => useMutation('posttransaction', postTr);
+const useTransactionPost = () => useMutation('postTransaction', postTr);
 
 export {useTransactionGet, useTransactionDelete, useTransactionPost};

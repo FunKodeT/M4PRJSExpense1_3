@@ -8,13 +8,16 @@ import {useEffect} from 'react';
 
 // UTILS
 const CategoryDelete = () => {
+	console.log('CategoryDelete running: Start');
 	const {
 		data: ctgs,
 		isLoading: ctgsLoading,
 		isRefetching: ctgsRefetching,
 		isSuccess: ctgsSuccess,
 	} = useCategoriesGet();
+	console.log('CategoryDelete running: useCategoriesGet() success');
 	const [category, setCategory] = useState();
+	console.log('CategoryDelete running: useState() set');
 	const {
 		mutate: deleteCategory,
 		isLoading: deletingCategory,
@@ -22,13 +25,17 @@ const CategoryDelete = () => {
 		isSuccess,
 		error,
 	} = useCategoryDelete();
+	console.log('CategoryDelete running: useCategoryDelete() set');
 
 	// USEEFFECT'S
 	useEffect(() => {
 		setCategory(ctgs?.data?.ctgs[0]);
 	}, [ctgs]);
+	console.log('CategoryDelete running: useEffect() set');
 
 	// HTML
+	console.log('CategoryDelete running: HTML');
+
 	return (
 		<div className={styles.categoryContainer}>
 			{/* DELETE CATEGORY */}
